@@ -1,12 +1,9 @@
-# Rails 7.1 Example App with Devise
+# Rails 7.1 Example App with Devise 4.9.3
 
-Devise has a bunch of [example applications](https://github.com/heartcombo/devise/wiki/Example-Applications)
-that provide examples of how Devise is used/installed.
+Repo to try to reproduce "remember me" checked in a Devise 4.9 session with Rails 7.1
 
-## Getting Started
-
-### Requirements
-- Ruby 3.2.2
+## Requirements
+- Ruby 3.1.0
 - Rails 7.1.1
 
 ### Install
@@ -21,8 +18,3 @@ bin/rails db:migrate
 
 bin/rails server
 ```
-
-## References
-
-I took inspiration from [this project](https://github.com/timothyjamesmarias/rails_7_devise_example). If you are using Rails 7.0.X, be sure to check it out!
-
