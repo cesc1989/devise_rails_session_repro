@@ -9,12 +9,12 @@ Repo to try to reproduce "remember me" checked in a Devise 4.9 session with Rail
 ### Install
 
 ```
-git clone https://github.com/jasonnoble/rails_7_1_devise_example.git
-cd rails_7_1_devise_example
+git clone https://github.com/cesc1989/devise_rails_session_repro
+cd devise_rails_session_repro
 
 bundle install
 bin/rails db:create
 bin/rails db:migrate
 
-bin/rails server
+bin/rails server -p 5400
 ```
